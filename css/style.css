@@ -1,2 +1,7 @@
-*{
+/*Fonts*/
+.Playfair{
+	font-family: 'Playfair Display', serif;
+}
+.Lato{
+	font-family: 'Lato', sans-serif;
 }
