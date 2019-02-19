@@ -106,7 +106,6 @@ header {
 #hours-and-map .col-8 {
     padding-left: 0px;
 }
-
 /*text_under_banner*/
 .under_banner{
     display: flex;
@@ -165,4 +164,9 @@ footer {
     line-height: 21px;
     font-weight: bold;
     letter-spacing: 0.5px;
+}
+.background{
+	width: 
+	height
+	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
