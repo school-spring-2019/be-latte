@@ -1,2 +1,13 @@
 *{
 }
+.banner>div{
+  left:166px;
+  top:301px;
+}
+.banner-h1{
+  color:#f5d76e;
+
+}
+.banner-p{
+  color:#ffffff;
+}
