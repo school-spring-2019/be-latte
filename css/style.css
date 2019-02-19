@@ -1,9 +1,21 @@
+
 /*Fonts*/
 .Playfair{
     font-family: 'Playfair Display', serif;
 }
 .Lato{
     font-family: 'Lato', sans-serif;
+}
+.banner>div{
+  left:166px;
+  top:301px;
+}
+.banner-h1{
+  color:#f5d76e;
+
+}
+.banner-p{
+  color:#ffffff;
 }
 .location {
     align-self: center;
