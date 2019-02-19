@@ -82,7 +82,7 @@
 .under_banner>p{
     max-width: 775px;
     padding: 0px 10px;
-    widows: auto;
+    width: auto;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
