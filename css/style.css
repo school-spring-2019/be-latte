@@ -1,3 +1,4 @@
+
 /*Fonts*/
 .Playfair{
     font-family: 'Playfair Display', serif;
@@ -5,11 +6,26 @@
 .Lato{
     font-family: 'Lato', sans-serif;
 }
-.location {
+.banner>div{
+  left:166px;
+  top:301px;
+}
+.banner-h1{
+  color:#f5d76e;
+
+}
+.banner-p{
+  color:#ffffff;
+}
+.location-label {
     align-self: center;
     border: 1px solid black;
-    width: 167px;
+    left: 0;
+    top: 50%;
+    width: 100%;
     height: 24px;
+    position: absolute;
+    text-align: center;
     font-family: playfairdisplay;
     font-size: 32px;
     font-weight: bold;
@@ -20,7 +36,7 @@
     text-align: center;
     color: var(--black);
     text-transform: uppercase;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 .houston-city {
     border: 1px solid black;
@@ -39,6 +55,44 @@
 }
 #hours-and-map .col-8 {
     padding-left: 0px;
+}
+/*text_under_banner*/
+.under_banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 98px;
+    margin-bottom: 200px;
+}
+.under_banner_header{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #2f2f2f;
+    margin-bottom: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 10px;
+}
+.under_banner_header>b{
+    font-weight: 900;    
+}
+.under_banner>p{
+    max-width: 775px;
+    padding: 0px 10px;
+    width: auto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
 }
 .background{
 	width: 

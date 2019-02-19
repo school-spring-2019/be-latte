@@ -1,14 +1,26 @@
 <!doctype html>
 <html lang="ru">
 <head>
-	<meta charset="utf-8">
-	<title>document</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
-	<h2>Testimonials</h2>
+
+  <div class="container position-relative banner">
+        <img src = "img/banner.png" class = "img-fluid" alt = "banner">
+        <div class="position-absolute">
+            <h1 class="banner-h1">Welcome to Be Latte</h1>
+            <p class="banner-p">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
+        </div>
+    </div>
+    <section class="under_banner">
+        <span class="under_banner_header Playfair">Coffee never tasted <b>so good</b>!</span>
+        <p class="Lato">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </section>
+    <h2>Testimonials</h2>
 	<div>
 		<div>
 			<ul>
@@ -32,7 +44,24 @@
 		</div>
 		
 	</div>
+    <div class="container position-relative">
+        <div class="container position-relative">
+            <div class="location-label">Location</div>
+        </div>
+        <div class="hours-and-map">
+            <div class="row">
+                <div class="hours-bg">
 
+                </div>
+                <div class="houston-city">
+                    <img src="img/houston-city.jpg"
+                         srcset="img/houston-city@2x.jpg 2x,
+                         img/houston-city@3x.jpg 3x"
+                         class="houston-city">
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
