@@ -63,6 +63,12 @@ header {
     height: 127px;
 }
 /* Ivan Balashov style*/
+.banner-cont{
+  width:100%;
+}
+.banner-cont>img{
+  width:100%;
+}
 @media screen and (min-width:1200px){
 .banner>div{
   left:166px;
@@ -307,7 +313,7 @@ header {
     text-align:center;
     margin-top:60px;
 }
-.text-block { 
+.text-block {
     font-family: Lato;
     font-size: 16px;
     line-height: 1.5;
@@ -353,4 +359,3 @@ footer {
 	height
 	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
-
