@@ -1,17 +1,44 @@
 <!doctype html>
 <html lang="ru">
 <head>
-	<meta charset="utf-8">
-	<title>document</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
+<header>
+    <nav class="navbar">
+        <div class="left">
+            <a href="" class="navbar-item Playfair active">Home</a>
+            <a href="" class="navbar-item Playfair">About us</a>
+        </div>
+        <div class="right">
+            <a href="" class="navbar-item Playfair">Menu</a>
+            <a href="" class="navbar-item Playfair">Blog</a>
+            <a href="" class="navbar-item Playfair">Contact</a>
+        </div>   
+    </nav>
+    <div class="logo">
+        <img class="logo-img" src="src/header_logo.png">
+    </div>
+</header>
+  <div class="container position-relative banner">
+		<img src = "img/banner.png" class = "img-fluid" alt = "banner">
+		<div class="position-absolute banner">
+			<h1 class="banner-h1 font-weight-bold">Welcome to Be Latte</h1>
+			<div class="text-block-banner">
+			<p class="banner-p">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
+			</div>
+			<button type="button" class="btn btn-outline-light button-banner">SEE MENU</button>
+		</div>
+	</div>
     <section class="under_banner">
         <span class="under_banner_header Playfair">Coffee never tasted <b>so good</b>!</span>
         <p class="Lato">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
     </section>
+
     <div class="icon-coffee"><img src="src/icon-coffee.svg"></div>
     <div class="menu">
         <div class="menu-text">
@@ -40,6 +67,63 @@
         </div>
     </div>
     <div class="button-see-full-menu-block-min"><button class="button-see-full-menu-block">see full menu</button></div>
+
+    <h2>Testimonials</h2>
+	<div>
+		<div>
+			<ul>
+				<li>
+					<div></div>
+					<div class="Chris Parker">Chris Parker</div>
+					<div class="text"></div>
+				</li>
+				<li>
+					<div></div>
+					<div class="Bruno-Bergher">Bruno-Bergher</div>
+					<div class="text"></div>
+				</li>
+				<li>
+					<div></div>
+					<div class="Bruno-Bergher">Bruno-Bergher</div>
+					<div class="text"></div>
+				</li>				
+			</ul>
+			
+		</div>
+		
+	</div>
+    <div class="container position-relative">
+        <div class="container position-relative">
+            <div class="location-label">Location</div>
+        </div>
+        <div class="hours-and-map">
+            <div class="row">
+                <div class="hours-bg">
+
+                </div>
+                <div class="houston-city">
+                    <img src="img/houston-city.jpg"
+                         srcset="img/houston-city@2x.jpg 2x,
+                         img/houston-city@3x.jpg 3x"
+                         class="houston-city">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="socials">
+            <a href="" class="socials-img facebook">
+                <img src="src/sotials/fb.svg">
+            </a>
+            <a href="" class="socials-img twitter">
+                <img src="src/sotials/tw.svg">
+            </a>
+            <a href="" class="socials-img instagram">
+                <img src="src/sotials/in.svg">
+            </a>
+        </div>
+        <p class="adress Lato">St. Thomas street 21st, Suite 110, Santa Monica, California</p>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

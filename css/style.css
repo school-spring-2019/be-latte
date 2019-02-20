@@ -1,3 +1,4 @@
+
 /*Fonts*/
 .Playfair{
     font-family: 'Playfair Display', serif;
@@ -5,11 +6,90 @@
 .Lato{
     font-family: 'Lato', sans-serif;
 }
-.location {
+.text-block-banner{
+  width:444px;
+  margin-top:27px;
+  margin-left:3px;
+  margin-right:3px;
+}
+header {
+    max-width: 1110px;
+    margin: 0 auto;
+    background: url(../src/header_background.png) top center no-repeat;
+}
+.navbar {
+    width: inherit;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .35);
+}
+.left, .right {
+    display: flex;
+    width: 43%;
+}
+.left {
+    justify-content: flex-end;
+}
+.right {
+    justify-content: flex-start;
+}
+
+.navbar-item {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.left .navbar-item:nth-child(2) {
+    margin-right: 0;
+}
+
+.navbar-item.active, .navbar-item:hover {
+    color: #f5d76e;
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.logo-img {
+    width: 154px;
+    height: 127px;
+}
+.banner>div{
+  left:166px;
+  top:301px;
+}
+.banner-h1{
+  color:#f5d76e;
+  font-family: 'Playfair Display', serif;
+  font-size:48px;
+  line-height:28px;
+}
+.banner-p{
+  color:#ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size:16px;
+}
+.button-banner{
+width:185px;
+height:54px;
+margin-top:38px;
+}
+.location-label {
     align-self: center;
     border: 1px solid black;
-    width: 167px;
+    left: 0;
+    top: 50%;
+    width: 100%;
     height: 24px;
+    position: absolute;
+    text-align: center;
     font-family: playfairdisplay;
     font-size: 32px;
     font-weight: bold;
@@ -20,7 +100,7 @@
     text-align: center;
     color: var(--black);
     text-transform: uppercase;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 .houston-city {
     border: 1px solid black;
@@ -40,7 +120,6 @@
 #hours-and-map .col-8 {
     padding-left: 0px;
 }
-
 /*text_under_banner*/
 .under_banner{
     display: flex;
@@ -55,18 +134,22 @@
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 0.75;
+    line-height: 1;
     letter-spacing: 0.8px;
     text-align: left;
     color: #2f2f2f;
     margin-bottom: 32px;
     font-weight: 700;
+    text-align: center;
+    padding: 0px 10px;
 }
 .under_banner_header>b{
-    font-weight: 900;    
+    font-weight: 900;
 }
 .under_banner>p{
-    width: 755px;
+    max-width: 775px;
+    padding: 0px 10px;
+    width: auto;
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
@@ -75,6 +158,7 @@
     letter-spacing: normal;
     text-align: center;
 }
+
 .cover {
     margin:auto;
     width:100%;
@@ -135,3 +219,31 @@
     background-image: url(../src/menu/desert.png);
     background-size:cover;
 }
+
+footer {
+    padding: 50px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #39312f;
+    text-align: center;
+}
+.socials {
+    margin-bottom: 20px;
+}
+.socials-img {
+    margin-left: 30px;
+}
+
+.adress {
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.background{
+	width: 
+	height
+	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
+}
+
