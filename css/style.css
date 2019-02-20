@@ -124,14 +124,14 @@
     color: #28211f;
 }
 .menu-top-coffe {
-    background-image: url(../src/menu/cup-of-coffee.png);
+    background-image: url(../src/menu/cup-coffee.png);
     background-size:cover;
 }
 .menu-top-tea {
-    background-image: url(../src/menu/tea-realisticshots.png);
+    background-image: url(../src/menu/cup-tea.png);
     background-size:cover;
 }
 .menu-top-dessert {
-    background-image: url(../src/menu/dessert.png);
+    background-image: url(../src/menu/desert.png);
     background-size:cover;
 }
