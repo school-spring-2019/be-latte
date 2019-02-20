@@ -6,17 +6,17 @@
 
 перед тем как начать выполнение задачи нужно с пулить себе изменения в мастер
 ```
-git checout master
+git checkout master
 git pull origin
 ```
 Затем создать ветку
-`git checout -b login_№задачи`
+`git checkout -b login_№задачи`
 Логин с гитхаба и номер задачи с issues
 
 После проделанной работы вернитесь обратно в мастер. С пулить изменения себе. Замёржить со своей веткой
 ```
 git pull origin
-git checout login_№задачи
+git checkout login_№задачи
 git merge master
 ```
 и разрешить конфликты. Только после этого отправлять на pull request
