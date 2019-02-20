@@ -61,6 +61,8 @@ header {
     width: 154px;
     height: 127px;
 }
+/* Ivan Balashov style*/
+@media screen and (min-width:1200px){
 .banner>div{
   left:166px;
   top:301px;
@@ -71,15 +73,84 @@ header {
   font-size:48px;
   line-height:28px;
 }
-.banner-p{
-  color:#ffffff;
-  font-family: 'Lato', sans-serif;
-  font-size:16px;
+  .banner-p{
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+  }
+  .button-banner{
+    width:185px;
+    height:54px;
+    margin-top:38px;
+  }
 }
-.button-banner{
-width:185px;
-height:54px;
-margin-top:38px;
+@media screen and (min-width:992px){
+.banner>div{
+  left:166px;
+  top:234px;
+}
+.banner-h1{
+  color:#f5d76e;
+  font-family: 'Playfair Display', serif;
+  font-size:48px;
+  line-height:28px;
+}
+  .banner-p{
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+  }
+  .button-banner{
+    width:185px;
+    height:54px;
+    margin-top:12px;
+  }
+}
+@media screen and (min-width:768px){
+.banner>div{
+  left:124px;
+  top:124px;
+}
+.banner-h1{
+  color:#f5d76e;
+  font-family: 'Playfair Display', serif;
+  font-size:36px;
+  line-height:28px;
+}
+  .banner-p{
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+  }
+  .banner.button-banner{
+    width:185px;
+    height:54px;
+    margin-top:12px;
+
+  }
+}
+@media screen and (max-width:576px){
+.banner>div{
+  left:124px;
+  top:104px;
+}
+.banner-h1{
+  color:#f5d76e;
+  font-family: 'Playfair Display', serif;
+  font-size:36px;
+  line-height:28px;
+}
+  .banner-p{
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+  }
+  .banner.button-banner{
+    width:185px;
+    height:54px;
+    margin-top:12px;
+
+  }
 }
 .location-label {
     align-self: center;
@@ -242,7 +313,7 @@ footer {
     letter-spacing: 0.5px;
 }
 .background{
-	width: 
+	width:
 	height
 	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
