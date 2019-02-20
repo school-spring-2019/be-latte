@@ -75,3 +75,63 @@
     letter-spacing: normal;
     text-align: center;
 }
+.cover {
+    margin:auto;
+    width:100%;
+    max-width:1920px;
+}
+.icon-coffee {
+    width:39px;
+    height:39px;
+    margin:80px auto;
+}
+.button-see-full-menu-block {
+    width:234px;
+    height:60px;
+    color: #000000;
+    background: rgba(0,0,0,0);
+    border: solid 2px #000000;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-align:center;
+}
+.button-see-full-menu-block-min {
+    width:234px;
+    margin:auto;
+}
+.menu-text {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.text-coffee {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:60px;
+}
+.text-block { 
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #28211f;
+}
+.menu-top-coffe {
+    background-image: url(../src/menu/cup-of-coffee.png);
+    background-size:cover;
+}
+.menu-top-tea {
+    background-image: url(../src/menu/tea-realisticshots.png);
+    background-size:cover;
+}
+.menu-top-dessert {
+    background-image: url(../src/menu/dessert.png);
+    background-size:cover;
+}
