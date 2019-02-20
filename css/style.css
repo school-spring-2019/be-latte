@@ -13,14 +13,15 @@
   margin-right:3px;
 }
 header {
-    max-width: 1110px;
+    width: 100%;
     margin: 0 auto;
-    background: url(../src/header_background.png) top center no-repeat;
+    background-color: rgba(0, 0, 0, .35);
+    position: absolute;
+    z-index: 3;
 }
 .navbar {
     width: inherit;
     height: 100px;
-    background-color: rgba(0, 0, 0, .35);
 }
 .left, .right {
     display: flex;
@@ -328,7 +329,7 @@ header {
 
 footer {
     padding: 50px 0;
-    max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
     background-color: #39312f;
     text-align: center;
