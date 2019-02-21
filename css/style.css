@@ -316,7 +316,7 @@ header {
     letter-spacing: normal;
     text-align: center;
 }
-<<<<<<< HEAD
+
 .testimonials {
     text-align: center;
     font-family: playfairdisplay;
@@ -475,7 +475,7 @@ ol.carousel-indicators li.active {
 div.carousel-inner {
     text-align: center;
 }
-img {
+.bd-example img {
     margin-top: 98px;
 }
 
