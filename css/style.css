@@ -463,6 +463,7 @@ img {
     margin-top: 98px;
 }
 
+/* And style*/
 .cover {
     margin:auto;
     width:100%;
@@ -523,6 +524,83 @@ img {
     background-image: url(../src/menu/desert.png);
     background-size:cover;
 }
+@media(min-width:1000px){
+.menu-blocks {
+    width:32%;
+    height:800px;
+    float:left;
+    margin-left:1%;
+}
+.menu-top {
+    height:294px;
+    width:100%;
+    text-align:center;
+    font-family: PlayfairDisplay;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform:uppercase;
+    padding-top:220px;
+}
+.menu-bottom-left {
+    padding-top:45px;
+    float:left;
+    margin-left:14%;  
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: left;
+    height:206px;
+}
+.menu-bottom-right {
+    margin-top:45px;
+    float:right;
+    margin-right:14%;  
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    height:206px;
+}
+}
+@media(max-width:999px){
+.menu-blocks {
+    width:98%;
+    height:500px;
+    margin-left:1%;
+    margin-bottom:250px;
+}
+.menu-top {
+    height:294px;
+    width:100%;
+    text-align:center;
+    font-family: PlayfairDisplay;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform:uppercase;
+    padding-top:220px;
+}
+.menu-bottom-left {
+    margin-top:45px;
+    float:left;
+    margin-left:13%;  
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: left;
+}
+.testimonials-all {
+    height: 850px;
+}
+.menu-bottom-right {
+    margin-top:45px;
+    float:right;
+    margin-right:13%;  
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
 
 footer {
     padding: 50px 0;
@@ -549,7 +627,6 @@ footer {
 	width:
 	height
 	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
->>>>>>> 868b10f998d2885ca9f01eb41af1c60a07da2951
 }
 
 .Chris-Parker {
