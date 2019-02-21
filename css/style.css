@@ -66,16 +66,12 @@ header {
 /* Ivan Balashov style*/
 
 .banner.banner-post{
-    height: 500px;
-    background-image: url(../img/banner.png);
+    height: 100vh;
+    background-image: url(../img/banner-mobile.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.banner.banner-post a{
-
-}
-
 .banner>div{
   left:24px;
   top:224px;
@@ -100,6 +96,13 @@ header {
     font-size:12px;
   }
   @media screen and (min-width:1200px){
+    .banner.banner-post{
+        height: 500px;
+        background-image: url(../img/banner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
   .banner>div{
     left:166px;
     top:301px;
@@ -122,6 +125,13 @@ header {
     }
   }
   @media screen and (min-width:992px){
+  .banner.banner-post{
+        height: 500px;
+        background-image: url(../img/banner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
   .banner>div{
     left:166px;
     top:264px;
@@ -144,32 +154,16 @@ header {
     }
   }
   @media screen and (min-width:768px){
+    .banner.banner-post{
+        height: 500px;
+        background-image: url(../img/banner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
   .banner>div{
     left:124px;
     top:250px;
-  }
-  .banner-h1{
-    color:#f5d76e;
-    font-family: 'Playfair Display', serif;
-    font-size:36px;
-    line-height:28px;
-  }
-    .banner-p{
-      color:#ffffff;
-      font-family: 'Lato', sans-serif;
-      font-size:12px;
-    }
-    .banner.button-banner{
-      width:185px;
-      height:54px;
-      margin-top:12px;
-
-    }
-  }
-  @media screen and (min-width:576px){
-  .banner>div{
-    left:124px;
-    top:224px;
   }
   .banner-h1{
     color:#f5d76e;
