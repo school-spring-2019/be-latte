@@ -213,13 +213,9 @@ header {
     position: relative;
 }
 .houston-city {
+    width: 100%;
     height: 425px;
     object-fit: cover;
-}
-@media(min-width:576px){
-    .houston-city {
-    width: 100%;
-    }
 }
 @media(min-width:768px){
     .houston-city {
@@ -246,6 +242,10 @@ header {
     max-width: 458px;
     width:40%;
     }
+}
+#container-location {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .hours-bg {
     left: 0px;
