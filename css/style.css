@@ -301,6 +301,7 @@ header {
     letter-spacing: normal;
     text-align: center;
 }
+<<<<<<< HEAD
 .testimonials {
     text-align: center;
     font-family: playfairdisplay;
@@ -627,97 +628,5 @@ footer {
 	width:
 	height
 	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
-}
-
-.Chris-Parker {
-  width: 118px;
-  height: 17px;
-  font-family: PlayfairDisplay;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: center;
-  color: #f5d76e;
-}
-.Bruno-Bergher {
-  width: 118px;
-  height: 17px;
-  font-family: PlayfairDisplay;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: center;
-  color: #f5d76e;
-}
-.Brendan-lim {
-  width: 118px;
-  height: 17px;
-  font-family: PlayfairDisplay;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: center;
-  color: #f5d76e;
-}
-.text{
-  width: 256px;
-  height: 75px;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.31;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff;
-}
-
-ol.carousel-indicators {
-   position: absolute;
-   bottom: 5px;
-   margin: 0;
-   left: 0;
-   right: 0;
-   width: auto;
-}
-
-ol.carousel-indicators li,
-ol.carousel-indicators li.active {
-   width: 11px;
-  height: 11px;
-  background-color: #ececec;
-   margin: 3px;
-   border-radius: 50%;
-   border: 0;
-   background: transparent;
-}
-
-ol.carousel-indicators li {
-  width: 9px;
-  height: 9px;
-  background-color: #ececec;
-}
-
-ol.carousel-indicators li.active {
-  width: 10px;
-  height: 10px;
-  border: 1px solid #ececec;
-  background-color: #39312f;
-}
-
-.carousel-item  {
-  width: 84px;
-  height: 84px;
-  object-fit: contain;
 }
 
