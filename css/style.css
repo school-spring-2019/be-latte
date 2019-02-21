@@ -72,6 +72,9 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.banner.banner-post a{
+
+}
 
 .banner>div{
   left:24px;
