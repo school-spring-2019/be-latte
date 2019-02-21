@@ -278,14 +278,14 @@ header {
     margin-bottom: 6px;
     font-family: 'Lato';
 }
-/*text_under_banner*/
+/*text_under_banner BOMBO454*/
 .under_banner{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 98px;
-    margin-bottom: 200px;
+    margin-top: 20px;
+
 }
 .under_banner_header{
     font-size: 32px;
@@ -296,7 +296,7 @@ header {
     letter-spacing: 0.8px;
     text-align: left;
     color: #2f2f2f;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
     font-weight: 700;
     text-align: center;
     padding: 0px 10px;
@@ -316,6 +316,31 @@ header {
     letter-spacing: normal;
     text-align: center;
 }
+@media (min-width: 576px) {
+    .under_banner{
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .under_banner{
+        margin-top: 80px;
+    }
+    .under_banner_header{
+        margin-bottom: 32px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+    .under_banner{
+        margin-top: 98px;
+}
+}
+/*--text_under_banner BOMBO454--*/
 
 .testimonials {
     text-align: center;
@@ -640,8 +665,8 @@ footer {
     letter-spacing: 0.5px;
 }
 .background{
-	width:
-	height
-	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
+    width:
+    height
+    background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
 
