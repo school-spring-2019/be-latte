@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Playfair+Display:400,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -38,7 +39,6 @@
         <span class="under_banner_header Playfair">Coffee never tasted <b>so good</b>!</span>
         <p class="Lato">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
     </section>
-
     <div class="icon-coffee"><img src="src/icon-coffee.svg"></div>
     <div class="menu" id="menu">
         <div class="menu-text">
@@ -67,30 +67,55 @@
         </div>
     </div>
     <div class="button-see-full-menu-block-min"><button class="button-see-full-menu-block">see full menu</button></div>
-
-    <h2>Testimonials</h2>
-	<div>
-		<div>
-			<ul>
-				<li>
-					<div></div>
-					<div class="Chris Parker">Chris Parker</div>
-					<div class="text"></div>
-				</li>
-				<li>
-					<div></div>
-					<div class="Bruno-Bergher">Bruno-Bergher</div>
-					<div class="text"></div>
-				</li>
-				<li>
-					<div></div>
-					<div class="Bruno-Bergher">Bruno-Bergher</div>
-					<div class="text"></div>
-				</li>
-			</ul>
-
-		</div>
-
+    <h2 class="testimonials">TESTIMONIALS</h2>
+    <div class="container-fluid">
+        <div class="bg">
+            <div class="viewport">
+                <div class="bd-example">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="layer">.01</div>
+                                 <img src="src/brendan-lim.png" alt="slideimg" class="slideimg rounded-circle">
+                              <div class="Chris-Parker">Chris Parker</div>
+                              <div class="text">Nisi elit consequat ipsum, nec 
+                                  <br>sagittis sem nibh id elit. Duis sed 
+                                  <br>odio sit amet nibh vulputate cursus a 
+                                  <br>sit amet mauris accumsan.
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="layer">.02</div>
+                            <img src="src/bruno-bergher.png" alt="slideimg" class="slideimg rounded-circle">
+                              <div class="Bruno-Bergher">Bruno Bergher</div>
+                              <div class="text">Nisi elit consequat ipsum, nec 
+                                  <br>sagittis sem nibh id elit. Duis sed 
+                                  <br>odio sit amet nibh vulputate cursus a 
+                                  <br>sit amet mauris accumsan.
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="layer">.03</div>
+                           <img src="src/brendan-lim.png" alt="slideimg" class="slideimg rounded-circle">
+                              <div class="Brendan-Lim">Brendan Lim</div>
+                              <div class="text">Nisi elit consequat ipsum, nec 
+                                  <br>sagittis sem nibh id elit. Duis sed 
+                                  <br>odio sit amet nibh vulputate cursus a 
+                                  <br>sit amet mauris accumsan.
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                <div class="quotation-mark">”</div>
+            </div>
+        </div>
+        <div class="icon-coffee"><img src="src/icon-coffee.svg"></div>
 	</div>
     <div class="container-fluid" id="container-location">
         <div class="container">
@@ -129,5 +154,8 @@
         <p class="adress Lato">St. Thomas street 21st, Suite 110, Santa Monica, California</p>
     </footer>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
