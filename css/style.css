@@ -209,7 +209,7 @@ header {
     margin-bottom: 60px;
 }
 .hours-and-map{
-    height: 425px;
+    /*height: 425px;*/
     margin-bottom: 15px;
 }
 
@@ -219,16 +219,43 @@ header {
     position: relative;
 }
 .houston-city {
-    width: 100%;
     height: 425px;
     object-fit: cover;
 }
-.hours-bg {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+@media(min-width:576px){
+    .houston-city {
+    width: 100%;
+    }
+}
+@media(min-width:768px){
+    .houston-city {
+    width: 60%;
+    }
+}
+@media(min-width:576px){
+    #hours-bg-container {
+    flex-wrap: wrap;
+    }
+}
+@media(min-width:768px){
+    #hours-bg-container {
+    flex-wrap: nowrap;
+    }
+}
+@media(min-width:576px){
+    .hours-bg {
+    width: 100%;
+    }
+}
+@media(min-width:768px){
+    .hours-bg {
     max-width: 458px;
     width:40%;
+    }
+}
+.hours-bg {
+    left: 0px;
+    top: 0px;
     height: 425px;
     background-color: #f5d76e;
     padding-left: 50px;
@@ -256,12 +283,6 @@ header {
 .hours-bg p {
     margin-bottom: 6px;
     font-family: 'Lato';
-}
-#hours-and-map .col-4 {
-    padding-right: 0px;
-}
-#hours-and-map .col-8 {
-    padding-left: 0px;
 }
 /*text_under_banner*/
 .under_banner{
