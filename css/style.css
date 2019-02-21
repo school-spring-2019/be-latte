@@ -6,25 +6,195 @@
 .Lato{
     font-family: 'Lato', sans-serif;
 }
-.banner>div{
-  left:166px;
-  top:301px;
+.text-block-banner{
+  width:444px;
+  margin-top:27px;
+  margin-left:3px;
+  margin-right:3px;
 }
-.banner-h1{
-  color:#f5d76e;
+header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .35);
+    position: absolute;
+    z-index: 3;
+}
+.navbar {
+    width: inherit;
+    height: 100px;
+}
+.left, .right {
+    display: flex;
+    width: 43%;
+}
+.left {
+    justify-content: flex-end;
+}
+.right {
+    justify-content: flex-start;
+}
+
+.navbar-item {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.left .navbar-item:nth-child(2) {
+    margin-right: 0;
+}
+
+.navbar-item.active, .navbar-item:hover {
+    color: #f5d76e;
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    margin-top: 7px;
+}
+
+.logo-img {
+    width: 154px;
+    height: 127px;
+}
+/* Ivan Balashov style*/
+
+.banner.banner-post{
+    height: 500px;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner.banner-post a{
 
 }
-.banner-p{
-  color:#ffffff;
+
+.banner>div{
+  left:24px;
+  top:224px;
 }
+.banner-h1{
+
+  color:#f5d76e;
+  font-family: 'Playfair Display', serif;
+  font-size:16px;
+  line-height:14px;
+}
+  .banner-p{
+    color:#ffffff;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+  }
+  .banner.button-banner{
+    width:185px;
+    height:54px;
+    margin-top:8px;
+    font-size:12px;
+  }
+  @media screen and (min-width:1200px){
+  .banner>div{
+    left:166px;
+    top:301px;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:48px;
+    line-height:28px;
+  }
+    .banner-p{
+      color:#ffffff;
+      font-family: 'Lato', sans-serif;
+      font-size:24px;
+    }
+    .button-banner{
+      width:185px;
+      height:54px;
+      margin-top:38px;
+    }
+  }
+  @media screen and (min-width:992px){
+  .banner>div{
+    left:166px;
+    top:264px;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:48px;
+    line-height:28px;
+  }
+    .banner-p{
+      color:#ffffff;
+      font-family: 'Lato', sans-serif;
+      font-size:36px;
+    }
+    .button-banner{
+      width:185px;
+      height:54px;
+      margin-top:12px;
+    }
+  }
+  @media screen and (min-width:768px){
+  .banner>div{
+    left:124px;
+    top:250px;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:36px;
+    line-height:28px;
+  }
+    .banner-p{
+      color:#ffffff;
+      font-family: 'Lato', sans-serif;
+      font-size:12px;
+    }
+    .banner.button-banner{
+      width:185px;
+      height:54px;
+      margin-top:12px;
+
+    }
+  }
+  @media screen and (min-width:576px){
+  .banner>div{
+    left:124px;
+    top:224px;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:36px;
+    line-height:28px;
+  }
+    .banner-p{
+      color:#ffffff;
+      font-family: 'Lato', sans-serif;
+      font-size:12px;
+    }
+    .banner.button-banner{
+      width:185px;
+      height:54px;
+      margin-top:12px;
+
+    }
+  }
 .location-label {
     align-self: center;
-    border: 1px solid black;
     left: 0;
     top: 50%;
     width: 100%;
     height: 24px;
-    position: absolute;
     text-align: center;
     font-family: playfairdisplay;
     font-size: 32px;
@@ -36,19 +206,56 @@
     text-align: center;
     color: var(--black);
     text-transform: uppercase;
-    /*margin-bottom: 60px;*/
+    margin-bottom: 60px;
+}
+.hours-and-map{
+    height: 425px;
+    margin-bottom: 15px;
+}
+
+.hours-and-map>.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
 }
 .houston-city {
-    border: 1px solid black;
     width: 100%;
     height: 425px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .hours-bg {
-    border: 1px solid black;
-    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 458px;
+    width:40%;
     height: 425px;
     background-color: #f5d76e;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+.hours-bg span {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  display: inline-block;
+}
+.hours-bg p b {
+    width: 99px;
+    display: inline-block;
+}
+.hours-bg p {
+    margin-bottom: 6px;
+    font-family: 'Lato';
 }
 #hours-and-map .col-4 {
     padding-right: 0px;
@@ -80,7 +287,7 @@
     padding: 0px 10px;
 }
 .under_banner_header>b{
-    font-weight: 900;    
+    font-weight: 900;
 }
 .under_banner>p{
     max-width: 775px;
@@ -95,7 +302,6 @@
     text-align: center;
 }
 .testimonials {
-
     text-align: center;
     font-family: playfairdisplay;
     font-size: 32px;
@@ -107,21 +313,243 @@
     text-align: center;
     color: var(--black);
     text-transform: uppercase;
+    padding: 60px;
 }
-.testimonial-bg{
-    max-width: 1270px;
+.bg {
+    max-width: 1140px;
     margin: 0 auto;
+    position: relative;
     width: 100%;
     height: 425px;
-	background-image: url('../src/realisticshots-coffee-photo.png');
+    background-image: url('../src/realisticshots-coffee-photo.png');
 }
-.slide-show {
+.viewport {
     width: 470px;
     height: 425px;
     position: relative;
     float: right;
     overflow: hidden;
     background-color: #39312f;
+}
+.slidewrapper {
+    list-style-type: none;
+    position: relative;
+    height: 425px;
+    margin: 0;
+    padding: 0;
+}
+.slide_content {
+    position: relative;
+}
+.slide{
+    width: 458px;
+    height: 425px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Chris-Parker {
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5d76e;
+    padding: 15px;
+}
+.Brendan-Lim {
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5d76e;
+    padding: 15px;
+}
+.Bruno-Bergher {
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5d76e;
+    padding: 15px;
+}
+.text {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; 
+    padding: 5px;
+}
+.photo-placeholder{
+    position: absolute;
+    top: 98px;
+    left: 187px;
+}
+.layer {
+    width: 111px;
+    height: 50px;
+    font-family: Playfair Display;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 0.23;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    display: inline;
+    top: 32px;
+    left: 30px;
+}
+.quotation-mark {
+    width: 77px;
+    font-family: Playfair Display;
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 0.11;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    right: 32px;
+    bottom: 12px;
+}
+ol.carousel-indicators {
+   position: absolute;
+   bottom: 64px;
+   margin: 0;
+   left: 0;
+   right: 0;
+   width: auto;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+   width: 11px;
+  height: 11px;
+  background-color: #ececec;
+   margin: 3px;
+   border-radius: 50%;
+   border: 0;
+   background: transparent;
+}
+ol.carousel-indicators li {
+  width: 9px;
+  height: 9px;
+  background-color: #ececec;
+}
+ol.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ececec;
+  background-color: #39312f;
+}
+div.carousel-inner {
+    text-align: center;
+}
+img {
+    margin-top: 98px;
+}
+
+.cover {
+    margin:auto;
+    width:100%;
+    max-width:1920px;
+}
+.icon-coffee {
+    width:39px;
+    height:39px;
+    margin:80px auto;
+}
+.button-see-full-menu-block {
+    width:234px;
+    height:60px;
+    color: #000000;
+    background: rgba(0,0,0,0);
+    border: solid 2px #000000;
+    font-weight: 900;
+    text-transform:uppercase;
+    text-align:center;
+}
+.button-see-full-menu-block-min {
+    width:234px;
+    margin:auto;
+}
+.menu-text {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.text-coffee {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:60px;
+}
+.text-block {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #28211f;
+}
+.menu-top-coffe {
+    background-image: url(../src/menu/cup-coffee.png);
+    background-size:cover;
+}
+.menu-top-tea {
+    background-image: url(../src/menu/cup-tea.png);
+    background-size:cover;
+}
+.menu-top-dessert {
+    background-image: url(../src/menu/desert.png);
+    background-size:cover;
+}
+
+footer {
+    padding: 50px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #39312f;
+    text-align: center;
+}
+.socials {
+    margin-bottom: 20px;
+}
+.socials-img {
+    margin-left: 30px;
+}
+
+.adress {
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.background{
+	width:
+	height
+	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
+>>>>>>> 868b10f998d2885ca9f01eb41af1c60a07da2951
 }
 
 .Chris-Parker {

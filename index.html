@@ -8,95 +8,129 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
-
-  <div class="container position-relative banner">
-        <img src = "img/banner.png" class = "img-fluid" alt = "banner">
-        <div class="position-absolute">
-            <h1 class="banner-h1">Welcome to Be Latte</h1>
-            <p class="banner-p">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
+<header>
+    <nav class="navbar">
+        <div class="left">
+            <a href="#" class="navbar-item Playfair active">Home</a>
+            <a href="#" class="navbar-item Playfair">About us</a>
         </div>
+        <div class="right">
+            <a href="#menu" class="navbar-item Playfair">Menu</a>
+            <a href="#" class="navbar-item Playfair">Blog</a>
+            <a href="#contacts" class="navbar-item Playfair">Contact</a>
+        </div>
+
+    </nav>
+    <div class="logo">
+        <img class="logo-img" src="src/header_logo.png">
     </div>
+</header>
+  <div class="banner-post position-relative banner">
+		<div class="position-absolute banner">
+			<h1 class="banner-h1 font-weight-bold">Welcome to Be Latte</h1>
+			<div class="text-block-banner">
+			<p class="banner-p">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
+			</div>
+			<a href="#menu"><button type="button" class="btn btn-outline-light button-banner">SEE MENU</button></a>
+		</div>
+	</div>
     <section class="under_banner">
         <span class="under_banner_header Playfair">Coffee never tasted <b>so good</b>!</span>
         <p class="Lato">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
     </section>
-    <h2 class="testimonials">TESTIMONIALS</h2>
-	<div class="testimonial-bg">
-		<div class="slide-show">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img  src="src/brendan-lim.png" alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Brendan lim</h5>
-                    <p>Nisi elit consequat ipsum, nec 
-                        <br>sagittis sem nibh id elit. Duis sed 
-                        <br>odio sit amet nibh vulputate cursus a 
-                        <br>sit amet mauris accumsan.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img  src="src/brendan-lim.png" alt="Second slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Brendan lim</h5>
-                    <p>Nisi elit consequat ipsum, nec 
-                        <br>sagittis sem nibh id elit. Duis sed 
-                        <br>odio sit amet nibh vulputate cursus a 
-                        <br>sit amet mauris accumsan.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img  src="src/bruno-bergher.png" alt="Third slide">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Brendan lim</h5>
-                    <p>Nisi elit consequat ipsum, nec 
-                        <br>sagittis sem nibh id elit. Duis sed 
-                        <br>odio sit amet nibh vulputate cursus a 
-                        <br>sit amet mauris accumsan.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-			<!-- <ul>
-                <li>
-                                <div>
-                                    <div></div>
-                                    <div class="Chris-Parker">Chris Parker</div>
-                                    <div class="text">Nisi elit consequat ipsum, nec <br>sagittis sem nibh id elit. Duis sed <br>odio sit amet nibh vulputate cursus a <br>sit amet mauris accumsan.</div>
-                                </div>
-                </li>
-                <li>
-                    <div></div>
-                    <div class="Bruno-Bergher">Bruno Bergher</div>
-                    <div class="text">Nisi elit consequat ipsum, nec <br>sagittis sem nibh id elit. Duis sed <br>odio sit amet nibh vulputate cursus a <br>sit amet mauris accumsan.</div>
-                </li>
-                <li>
-                    <div>
-                                    <img src="src/brendan-lim.png" srcset="src/brendan-lim@2x.png 2x, src/brendan-lim@3x.png 3x" class="brendan-lim">               
-                                </div>
-                    <div class="Brendan-lim">Brendan lim</div>
-                    <div class="text">Nisi elit consequat ipsum, nec <br>sagittis sem nibh id elit. Duis sed <br>odio sit amet nibh vulputate cursus a <br>sit amet mauris accumsan.</div>
-                </li>                
-            </ul> -->
-		</div>
+    <div class="icon-coffee"><img src="src/icon-coffee.svg"></div>
+    <div class="menu" id="menu">
+        <div class="menu-text">
+            <h2>menu</h2>
+        </div>
+        <div class="menu-blocks">
+            <div class="menu-top menu-top-coffe"><p>coffee</p></div>
+            <div>
+                <div class="menu-bottom-left"><p>Iced tea</br>Cold brew</br>Jasmine green</br>Peppermint Herbal</p></div>
+                <div class="menu-bottom-right"><p>$3.00</br>$3.25</br>$3.75</br>$3.00</p></div>
+            </div>
+        </div>
+        <div class="menu-blocks">
+            <div class="menu-top menu-top-tea"><p>tea</p></div>
+            <div>
+                <div class="menu-bottom-left"><p>Iced tea</br>Cold brew</br>Jasmine green</br>Peppermint Herbal</p></div>
+                <div class="menu-bottom-right"><p>$2.75</br>$3.25</br>$3.75</br>$3.00</p></div>
+            </div>
+        </div>
+        <div class="menu-blocks">
+            <div class="menu-top menu-top-dessert"><p>desserts</p></div>
+            <div>
+                <div class="menu-bottom-left"><p>Tiramisu</br>Cheese cake</br>Black forest</br>Brownie</p></div>
+                <div class="menu-bottom-right"><p>$3.00</br>$3.25</br>$3.75</br>$3.00</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="button-see-full-menu-block-min"><button class="button-see-full-menu-block">see full menu</button></div>
+    <h2 class="testimonials">TESTIMONIALS</h2>
+        <div class="bg">
+            <div class="viewport">
+                <div class="bd-example">
+                      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="layer">.01</div>
+                                 <img src="src/brendan-lim.png" alt="slideimg" class="slideimg rounded-circle">
+                              <div class="Chris-Parker">Chris Parker</div>
+                              <div class="text">Nisi elit consequat ipsum, nec 
+                                  <br>sagittis sem nibh id elit. Duis sed 
+                                  <br>odio sit amet nibh vulputate cursus a 
+                                  <br>sit amet mauris accumsan.
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="layer">.02</div>
+                            <img src="src/bruno-bergher.png" alt="slideimg" class="slideimg rounded-circle">
+                              <div class="Bruno-Bergher">Bruno Bergher</div>
+                              <div class="text">Nisi elit consequat ipsum, nec 
+                                  <br>sagittis sem nibh id elit. Duis sed 
+                                  <br>odio sit amet nibh vulputate cursus a 
+                                  <br>sit amet mauris accumsan.
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="layer">.03</div>
+                           <img src="src/brendan-lim.png" alt="slideimg" class="slideimg rounded-circle">
+                              <div class="Brendan-Lim">Brendan Lim</div>
+                              <div class="text">Nisi elit consequat ipsum, nec 
+                                  <br>sagittis sem nibh id elit. Duis sed 
+                                  <br>odio sit amet nibh vulputate cursus a 
+                                  <br>sit amet mauris accumsan.
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                <div class="quotation-mark">”</div>
+            </div>
+        </div>
+        <div class="icon-coffee"><img src="src/icon-coffee.svg"></div>
 	</div>
-    <div class="container position-relative">
-        <div class="container position-relative">
+    <div class="container-fluid">
+        <div class="container">
             <div class="location-label">Location</div>
         </div>
+        <div class="container"></div>
         <div class="hours-and-map">
             <div class="row">
                 <div class="hours-bg">
-
+                    <span>Location</span>
+                    <p>Visit us at St. Thomas street 21st, suite 110, Santa Monica, California.</p>
+                    <span>Hours</span>
+                    <p><b>Mon - Sat:</b>7am - 8pm</p>
+                    <p><b>Sunday:</b>7am - 5pm</p>
+                    <span>Happy hour</span>
+                    <p><b>Mon - Fri:</b>4pm - 6pm</p>
                 </div>
                 <div class="houston-city">
                     <img src="img/houston-city.jpg"
@@ -107,6 +141,20 @@
             </div>
         </div>
     </div>
+    <footer id="contacts">
+        <div class="socials">
+            <a href="" class="socials-img facebook">
+                <img src="src/sotials/fb.svg">
+            </a>
+            <a href="" class="socials-img twitter">
+                <img src="src/sotials/tw.svg">
+            </a>
+            <a href="" class="socials-img instagram">
+                <img src="src/sotials/in.svg">
+            </a>
+        </div>
+        <p class="adress Lato">St. Thomas street 21st, Suite 110, Santa Monica, California</p>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
