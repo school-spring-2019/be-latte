@@ -301,6 +301,169 @@ header {
     letter-spacing: normal;
     text-align: center;
 }
+<<<<<<< HEAD
+.testimonials {
+    text-align: center;
+    font-family: playfairdisplay;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 60px;
+}
+.bg {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 425px;
+    background-image: url('../src/realisticshots-coffee-photo.png');
+}
+.viewport {
+    width: 470px;
+    height: 425px;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    background-color: #39312f;
+}
+.slidewrapper {
+    list-style-type: none;
+    position: relative;
+    height: 425px;
+    margin: 0;
+    padding: 0;
+}
+.slide_content {
+    position: relative;
+}
+.slide{
+    width: 458px;
+    height: 425px;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Chris-Parker {
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5d76e;
+    padding: 15px;
+}
+.Brendan-Lim {
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5d76e;
+    padding: 15px;
+}
+.Bruno-Bergher {
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f5d76e;
+    padding: 15px;
+}
+.text {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; 
+    padding: 5px;
+}
+.photo-placeholder{
+    position: absolute;
+    top: 98px;
+    left: 187px;
+}
+.layer {
+    width: 111px;
+    height: 50px;
+    font-family: Playfair Display;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 0.23;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    display: inline;
+    top: 32px;
+    left: 30px;
+}
+.quotation-mark {
+    width: 77px;
+    font-family: Playfair Display;
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 0.11;
+    color: rgba(255, 255, 255, 0.03);
+    position: absolute;
+    right: 32px;
+    bottom: 12px;
+}
+ol.carousel-indicators {
+   position: absolute;
+   bottom: 64px;
+   margin: 0;
+   left: 0;
+   right: 0;
+   width: auto;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+   width: 11px;
+  height: 11px;
+  background-color: #ececec;
+   margin: 3px;
+   border-radius: 50%;
+   border: 0;
+   background: transparent;
+}
+ol.carousel-indicators li {
+  width: 9px;
+  height: 9px;
+  background-color: #ececec;
+}
+ol.carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ececec;
+  background-color: #39312f;
+}
+div.carousel-inner {
+    text-align: center;
+}
+img {
+    margin-top: 98px;
+}
+
 /* And style*/
 .cover {
     margin:auto;
@@ -466,3 +629,4 @@ footer {
 	height
 	background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
+
