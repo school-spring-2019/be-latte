@@ -12,6 +12,8 @@
   margin-left:3px;
   margin-right:3px;
 }
+
+/*Header Lennnyn*/
 header {
     width: 100%;
     margin: 0 auto;
@@ -23,15 +25,18 @@ header {
     width: inherit;
     height: 100px;
 }
+
 .left, .right {
     display: flex;
-    width: 43%;
+    width: 50%;
 }
 .left {
     justify-content: flex-end;
+    padding-right: 50px;
 }
-.right {
+.navbar .right {
     justify-content: flex-start;
+    padding-left: 65px;
 }
 
 .navbar-item {
@@ -40,6 +45,18 @@ header {
     line-height: 28px;
     color: #fff;
     margin-right: 20px;
+}
+
+.nav-item {
+    text-align: right;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar .navbar-toggler {
+    background: #f2d46e;
+    position: absolute;
+    right: 15px;
 }
 
 .left .navbar-item:nth-child(2) {
@@ -693,8 +710,9 @@ div.carousel-inner {
     font-size: 16px;
     line-height: 1.75;
 }
+}
 
-
+/*Footer Lennnyn*/
 footer {
     padding: 50px 0;
     width: 100%;
@@ -716,8 +734,38 @@ footer {
     font-weight: bold;
     letter-spacing: 0.5px;
 }
-.background{
+.background {
     width:
     height
     background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
+}
+@media screen and (max-width: 990px) {
+    .navbar .right {
+        padding-left: 0;
+    }
+    .navbar-collapse {
+        position: relative;
+        top: 100px;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+    .logo {
+        left: 15px;
+        transform: none;
+    }
+
+    .logo-img {
+        width: 141px;
+        height: 116px;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .adress {
+        padding: 0 25px;
+    }
 }

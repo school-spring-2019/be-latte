@@ -10,17 +10,22 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-        <div class="left">
-            <a href="#" class="navbar-item Playfair active">Home</a>
-            <a href="#" class="navbar-item Playfair">About us</a>
-        </div>
-        <div class="right">
-            <a href="#menu" class="navbar-item Playfair">Menu</a>
-            <a href="#" class="navbar-item Playfair">Blog</a>
-            <a href="#contacts" class="navbar-item Playfair">Contact</a>
-        </div>
-
+    <nav class="navbar navbar-expand-lg" role="navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    	    <span class="navbar-toggler-icon"></span>
+  	    </button>
+  	    <div class="collapse navbar-collapse" id="navbar1">
+  		    <ul class="left navbar-nav">
+                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link">About us</a></li>
+            </ul>
+            <ul class="right navbar-nav">
+                <li class="nav-item"><a href="#menu" class="navbar-item Playfair nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contacts" class="navbar-item Playfair nav-link">Contact</a></li>
+            </ul>	
+  	    </div>
+            
     </nav>
     <div class="logo">
         <img class="logo-img" src="src/header_logo.png">
