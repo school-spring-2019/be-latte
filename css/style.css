@@ -627,7 +627,7 @@ div.carousel-inner {
     margin:auto;
 }
 .menu-text {
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 32px;
     font-weight: bold;
     text-transform:uppercase;
@@ -636,7 +636,7 @@ div.carousel-inner {
     margin-bottom:60px;
 }
 .text-coffee {
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 32px;
     font-weight: bold;
     text-transform:uppercase;
@@ -653,31 +653,35 @@ div.carousel-inner {
 .menu-top-coffe {
     background-image: url(../src/menu/cup-coffee.png);
     background-size:cover;
+    background-position: center;
 }
 .menu-top-tea {
     background-image: url(../src/menu/cup-tea.png);
     background-size:cover;
+    background-position: center;
 }
 .menu-top-dessert {
     background-image: url(../src/menu/desert.png);
     background-size:cover;
+    background-position: center;
 }
 @media(min-width:1000px){
 .menu-blocks {
     width:32%;
-    height:800px;
+    height:550px;
     float:left;
     margin-left:1%;
 }
 .menu-top {
     height:294px;
     width:100%;
-    text-align:center;
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: bold;
     text-transform:uppercase;
-    padding-top:220px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu-bottom-left {
     padding-top:45px;
@@ -710,12 +714,13 @@ div.carousel-inner {
 .menu-top {
     height:294px;
     width:100%;
-    text-align:center;
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: bold;
     text-transform:uppercase;
-    padding-top:220px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu-bottom-left {
     margin-top:45px;
