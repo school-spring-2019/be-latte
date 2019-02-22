@@ -587,7 +587,27 @@ div.carousel-inner {
 .icon-coffee {
     width:39px;
     height:39px;
-    margin:80px auto;
+    margin:30px auto;
+}
+@media (min-width: 576px) {
+    .icon-coffee {
+        margin:40px auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .icon-coffee {
+        margin:50px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .icon-coffee {
+        margin:80px auto;
+    }
+}
+
+@media (min-width: 1200px) {
 }
 .button-see-full-menu-block {
     width:234px;
