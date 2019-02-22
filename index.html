@@ -10,17 +10,22 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-        <div class="left">
-            <a href="#" class="navbar-item Playfair active">Home</a>
-            <a href="#" class="navbar-item Playfair">About us</a>
-        </div>
-        <div class="right">
-            <a href="#menu" class="navbar-item Playfair">Menu</a>
-            <a href="#" class="navbar-item Playfair">Blog</a>
-            <a href="#contacts" class="navbar-item Playfair">Contact</a>
-        </div>
-
+    <nav class="navbar navbar-expand-lg" role="navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    	    <span class="navbar-toggler-icon"></span>
+  	    </button>
+  	    <div class="collapse navbar-collapse" id="navbar1">
+  		    <ul class="left navbar-nav">
+                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link">About us</a></li>
+            </ul>
+            <ul class="right navbar-nav">
+                <li class="nav-item"><a href="#menu" class="navbar-item Playfair nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contacts" class="navbar-item Playfair nav-link">Contact</a></li>
+            </ul>	
+  	    </div>
+            
     </nav>
     <div class="logo">
         <img class="logo-img" src="src/header_logo.png">
@@ -29,9 +34,8 @@
   <div class="banner-post position-relative banner">
 		<div class="position-absolute banner">
 			<h1 class="banner-h1 font-weight-bold">Welcome to Be Latte</h1>
-			<div class="text-block-banner">
-			<p class="banner-p">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
-			</div>
+			<p class="banner-p">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit.
+         Auctor aliquet sollicitudin lorem quis.</p>
 			<a href="#menu"><button type="button" class="btn btn-outline-light button-banner">SEE MENU</button></a>
 		</div>
 	</div>
@@ -83,9 +87,9 @@
                             <div class="layer">.01</div>
                                  <img src="src/brendan-lim.png" alt="slideimg" class="slideimg rounded-circle">
                               <div class="Chris-Parker">Chris Parker</div>
-                              <div class="text">Nisi elit consequat ipsum, nec 
-                                  <br>sagittis sem nibh id elit. Duis sed 
-                                  <br>odio sit amet nibh vulputate cursus a 
+                              <div class="text">Nisi elit consequat ipsum, nec
+                                  <br>sagittis sem nibh id elit. Duis sed
+                                  <br>odio sit amet nibh vulputate cursus a
                                   <br>sit amet mauris accumsan.
                               </div>
                           </div>
@@ -93,9 +97,9 @@
                             <div class="layer">.02</div>
                             <img src="src/bruno-bergher.png" alt="slideimg" class="slideimg rounded-circle">
                               <div class="Bruno-Bergher">Bruno Bergher</div>
-                              <div class="text">Nisi elit consequat ipsum, nec 
-                                  <br>sagittis sem nibh id elit. Duis sed 
-                                  <br>odio sit amet nibh vulputate cursus a 
+                              <div class="text">Nisi elit consequat ipsum, nec
+                                  <br>sagittis sem nibh id elit. Duis sed
+                                  <br>odio sit amet nibh vulputate cursus a
                                   <br>sit amet mauris accumsan.
                               </div>
                           </div>
@@ -103,9 +107,9 @@
                             <div class="layer">.03</div>
                            <img src="src/brendan-lim.png" alt="slideimg" class="slideimg rounded-circle">
                               <div class="Brendan-Lim">Brendan Lim</div>
-                              <div class="text">Nisi elit consequat ipsum, nec 
-                                  <br>sagittis sem nibh id elit. Duis sed 
-                                  <br>odio sit amet nibh vulputate cursus a 
+                              <div class="text">Nisi elit consequat ipsum, nec
+                                  <br>sagittis sem nibh id elit. Duis sed
+                                  <br>odio sit amet nibh vulputate cursus a
                                   <br>sit amet mauris accumsan.
                               </div>
                           </div>
@@ -117,14 +121,13 @@
         </div>
         <div class="icon-coffee"><img src="src/icon-coffee.svg"></div>
 	</div>
-</div>
-    <div class="container-fluid">
+    <div class="container-fluid" id="container-location">
         <div class="container">
             <div class="location-label">Location</div>
         </div>
-        <div class="container"></div>
         <div class="hours-and-map">
-            <div class="row">
+            <div class="row" id="hours-bg-container">
+
                 <div class="hours-bg">
                     <span>Location</span>
                     <p>Visit us at St. Thomas street 21st, suite 110, Santa Monica, California.</p>
@@ -135,10 +138,7 @@
                     <p><b>Mon - Fri:</b>4pm - 6pm</p>
                 </div>
                 <div class="houston-city">
-                    <img src="img/houston-city.jpg"
-                         srcset="img/houston-city@2x.jpg 2x,
-                         img/houston-city@3x.jpg 3x"
-                         class="houston-city">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.569841029729!2d-118.47937058478553!3d34.029250980612176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb37ce15f69b%3A0xba094124ce17ec8e!2sSaint+John&#39;s+Health+Center!5e0!3m2!1sru!2sru!4v1550732848704" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
