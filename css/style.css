@@ -371,6 +371,9 @@ header {
     padding: 0px 10px;
 }
 .under_banner_header>b{
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: -1px;
     font-weight: 900;
 }
 .under_banner>p{
