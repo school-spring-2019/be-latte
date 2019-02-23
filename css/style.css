@@ -85,125 +85,177 @@ header {
     outline: none;
 }
 /* Ivan Balashov style*/
-
-.banner.banner-post{
-    height: 100vh;
-    background-image: url(../img/banner-mobile.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.banner>div{
-  left:24px;
-  top:224px;
-}
-.banner-h1{
-
-  color:#f5d76e;
-  font-family: 'Playfair Display', serif;
-  font-size:16px;
-  line-height:14px;
-}
-  .banner-p{
-    color:#ffffff;
-    display: block;
-    font-family: 'Lato', sans-serif;
-    font-size:12px;
-  }
-  .banner.button-banner{
-    width:185px;
-    height:54px;
-    margin-top:8px;
-    font-size:12px;
-  }
-  @media screen and (min-width:1200px){
-    .banner.banner-post{
-        height: 500px;
-        background-image: url(../img/banner.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-  .banner>div{
-    left:166px;
-    top:301px;
-  }
-  .banner-h1{
-    color:#f5d76e;
-    font-family: 'Playfair Display', serif;
-    font-size:48px;
-    line-height:28px;
-  }
-    .banner-p{
-      color:#ffffff;
-      font-family: 'Lato', sans-serif;
-      font-size:24px;
-    }
-    .button-banner{
-      width:185px;
-      height:54px;
-      margin-top:38px;
-    }
-  }
-  @media screen and (min-width:992px){
+@media (max-width: 575.98px) {
   .banner.banner-post{
-        height: 500px;
-        background-image: url(../img/banner.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+      height: 100vh;
+      background-image: url(../img/banner-mobile.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
   .banner>div{
-    left:166px;
-    top:264px;
+    left:12%;
+    right:12%;
+    top:25%;
   }
   .banner-h1{
     color:#f5d76e;
     font-family: 'Playfair Display', serif;
-    font-size:48px;
-    line-height:28px;
+    font-size:32px;
+    line-height:35px;
+    text-align:center;
   }
-    .banner-p{
+  .banner-p{
       color:#ffffff;
+      display: block;
       font-family: 'Lato', sans-serif;
-      font-size:36px;
-    }
-    .button-banner{
-      width:185px;
-      height:54px;
-      margin-top:12px;
-    }
+      font-size:16px;
+      text-align: center;
   }
-  @media screen and (min-width:768px){
-    .banner.banner-post{
-        height: 500px;
-        background-image: url(../img/banner.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-  .banner>div{
-    left:124px;
-    top:250px;
-  }
-  .banner-h1{
-    color:#f5d76e;
-    font-family: 'Playfair Display', serif;
-    font-size:36px;
-    line-height:28px;
-  }
-    .banner-p{
-      color:#ffffff;
-      font-family: 'Lato', sans-serif;
+  .button-banner{
+      width:100%;
+      height:84px;
+      margin-top:8px;
       font-size:12px;
-    }
-    .banner.button-banner{
-      width:185px;
-      height:54px;
-      margin-top:12px;
-
-    }
   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner.banner-post{
+      height: 100vh;
+      background-image: url(../img/banner-mobile.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .banner>div{
+    left:12%;
+    right:12%;
+    top:25%;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:32px;
+    line-height:35px;
+    text-align:center;
+  }
+  .banner-p{
+      color:#ffffff;
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-size:16px;
+      text-align: center;
+  }
+  .button-banner{
+      width:100%;
+      height:64px;
+      margin-top:8px;
+      font-size:12px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner.banner-post{
+      height: 500px;
+      background-image: url(../img/banner.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .banner>div{
+    left:12%;
+    right:12%;
+    top:35%;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:32px;
+    line-height:35px;
+  }
+  .banner-p{
+      color:#ffffff;
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-size:16px;
+  }
+  .button-banner{
+      width:154px;
+      height:64px;
+      margin-top:8px;
+      font-size:12px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner.banner-post{
+      height: 500px;
+      background-image: url(../img/banner.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .banner>div{
+    left:12%;
+    right:12%;
+    top:35%;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:32px;
+    line-height:35px;
+  }
+  .banner-p{
+      color:#ffffff;
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-size:18px;
+  }
+  .button-banner{
+      width:154px;
+      height:64px;
+      margin-top:8px;
+      font-size:12px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .banner.banner-post{
+      height: 500px;
+      background-image: url(../img/banner.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .banner>div{
+    left:12%;
+    right:12%;
+    top:35%;
+  }
+  .banner-h1{
+    color:#f5d76e;
+    font-family: 'Playfair Display', serif;
+    font-size:32px;
+    line-height:35px;
+  }
+  .banner-p{
+      color:#ffffff;
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-size:18px;
+  }
+  .button-banner{
+      width:154px;
+      height:64px;
+      margin-top:8px;
+      font-size:12px;
+  }
+}
+
 .location-label {
     align-self: center;
     left: 0;
@@ -323,6 +375,9 @@ header {
     padding: 0px 10px;
 }
 .under_banner_header>b{
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: -1px;
     font-weight: 900;
 }
 .under_banner>p{
@@ -378,11 +433,12 @@ header {
     padding: 60px;
 }
 .bg {
-    max-width: 1140px;
+    max-width: 1270px;
     margin: 0 auto;
     position: relative;
     width: 100%;
     height: 425px;
+    background-position:80% 20%;
     background-image: url('../src/realisticshots-coffee-photo.png');
 }
 .viewport {
@@ -393,6 +449,10 @@ header {
     overflow: hidden;
     background-color: #39312f;
 }
+@media screen and (max-width: 768px) {
+     #viewport-bg-container { width: 100%; } 
+   }
+   
 .slidewrapper {
     list-style-type: none;
     position: relative;
@@ -404,12 +464,11 @@ header {
     position: relative;
 }
 .slide{
-    width: 458px;
+    margin-left: auto;
+    margin-right: auto;
     height: 425px;
-    float: left;
     list-style: none;
-    margin: 0;
-    padding: 0;
+   
 }
 .Chris-Parker {
     font-family: PlayfairDisplay;
@@ -456,7 +515,7 @@ header {
     line-height: 1.31;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff; 
+    color: #ffffff;
     padding: 5px;
 }
 .photo-placeholder{
@@ -522,6 +581,7 @@ div.carousel-inner {
     text-align: center;
 }
 .bd-example img {
+    
     margin-top: 98px;
 }
 
@@ -534,7 +594,27 @@ div.carousel-inner {
 .icon-coffee {
     width:39px;
     height:39px;
-    margin:80px auto;
+    margin:30px auto;
+}
+@media (min-width: 576px) {
+    .icon-coffee {
+        margin:40px auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .icon-coffee {
+        margin:50px auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .icon-coffee {
+        margin:80px auto;
+    }
+}
+
+@media (min-width: 1200px) {
 }
 .button-see-full-menu-block {
     width:234px;
@@ -551,7 +631,7 @@ div.carousel-inner {
     margin:auto;
 }
 .menu-text {
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 32px;
     font-weight: bold;
     text-transform:uppercase;
@@ -560,7 +640,7 @@ div.carousel-inner {
     margin-bottom:60px;
 }
 .text-coffee {
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 32px;
     font-weight: bold;
     text-transform:uppercase;
@@ -577,36 +657,40 @@ div.carousel-inner {
 .menu-top-coffe {
     background-image: url(../src/menu/cup-coffee.png);
     background-size:cover;
+    background-position: center;
 }
 .menu-top-tea {
     background-image: url(../src/menu/cup-tea.png);
     background-size:cover;
+    background-position: center;
 }
 .menu-top-dessert {
     background-image: url(../src/menu/desert.png);
     background-size:cover;
+    background-position: center;
 }
 @media(min-width:1000px){
 .menu-blocks {
     width:32%;
-    height:800px;
+    height:550px;
     float:left;
     margin-left:1%;
 }
 .menu-top {
     height:294px;
     width:100%;
-    text-align:center;
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: bold;
     text-transform:uppercase;
-    padding-top:220px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu-bottom-left {
     padding-top:45px;
     float:left;
-    margin-left:14%;  
+    margin-left:14%;
     font-family: Lato;
     font-weight: 900;
     font-size: 16px;
@@ -617,7 +701,7 @@ div.carousel-inner {
 .menu-bottom-right {
     margin-top:45px;
     float:right;
-    margin-right:14%;  
+    margin-right:14%;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.75;
@@ -634,17 +718,18 @@ div.carousel-inner {
 .menu-top {
     height:294px;
     width:100%;
-    text-align:center;
-    font-family: PlayfairDisplay;
+    font-family: Playfair Display;
     font-size: 40px;
     font-weight: bold;
     text-transform:uppercase;
-    padding-top:220px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .menu-bottom-left {
     margin-top:45px;
     float:left;
-    margin-left:13%;  
+    margin-left:13%;
     font-family: Lato;
     font-weight: 900;
     font-size: 16px;
@@ -657,7 +742,7 @@ div.carousel-inner {
 .menu-bottom-right {
     margin-top:45px;
     float:right;
-    margin-right:13%;  
+    margin-right:13%;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.75;
@@ -697,6 +782,7 @@ footer {
     height
     background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
+
 
 @media screen and (max-width: 767px) {
     .navbar .right {
