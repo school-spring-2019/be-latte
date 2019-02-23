@@ -10,18 +10,18 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg" role="navigation">
+    <nav class="navbar navbar-expand-md p-0" role="navigation">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
     	    <span class="navbar-toggler-icon"></span>
   	    </button>
   	    <div class="collapse navbar-collapse" id="navbar1">
   		    <ul class="left navbar-nav">
                 <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link active">Home</a></li>
-                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link">About us</a></li>
+                <li class="nav-item"><a href="#about" class="navbar-item Playfair nav-link">About us</a></li>
             </ul>
             <ul class="right navbar-nav">
                 <li class="nav-item"><a href="#menu" class="navbar-item Playfair nav-link">Menu</a></li>
-                <li class="nav-item"><a href="#" class="navbar-item Playfair nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#reviews" class="navbar-item Playfair nav-link">Reviews</a></li>
                 <li class="nav-item"><a href="#contacts" class="navbar-item Playfair nav-link">Contact</a></li>
             </ul>	
   	    </div>
@@ -40,7 +40,7 @@
 			<a href="#menu"><button type="button" class="btn btn-outline-light button-banner">SEE MENU</button></a>
 		</div>
 	</div>
-    <section class="under_banner">
+    <section class="under_banner" id="about">
         <span class="under_banner_header Playfair">Coffee never tasted <b>so good</b>!</span>
         <p class="Lato">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
     </section>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <div class="button-see-full-menu-block-min"><button class="button-see-full-menu-block">see full menu</button></div>
-    <h2 class="testimonials">TESTIMONIALS</h2>
+    <h2 class="testimonials" id="reviews">TESTIMONIALS</h2>
     <div class="container-fluid">
         <div class="bg">
             <div class="viewport">
@@ -146,14 +146,20 @@
     </div>
     <footer id="contacts">
         <div class="socials">
-            <a href="" class="socials-img facebook">
-                <img src="src/sotials/fb.svg">
+            <a href="https://www.facebook.com/coffeedali73/" target="_blank" class="socials-img">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="26px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M13.607,0.180 C13.182,0.118 11.719,-0.007 10.020,-0.007 C6.465,-0.007 4.027,2.149 4.027,6.102 L4.027,9.508 L0.016,9.508 L0.016,14.132 L4.027,14.132 L4.027,25.990 L8.840,25.990 L8.840,14.132 L12.836,14.132 L13.449,9.508 L8.840,9.508 L8.840,6.555 C8.840,5.227 9.202,4.305 11.137,4.305 L13.607,4.305 L13.607,0.180 Z"/>
+                </svg>
             </a>
-            <a href="" class="socials-img twitter">
-                <img src="src/sotials/tw.svg">
+            <a href="https://twitter.com/" target="_blank" class="socials-img">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="20px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M25.723,2.367 C24.811,2.758 23.820,3.039 22.798,3.148 C23.852,2.523 24.654,1.539 25.031,0.368 C24.056,0.946 22.955,1.368 21.807,1.586 C20.879,0.602 19.557,-0.007 18.094,-0.007 C15.278,-0.007 13.013,2.258 13.013,5.039 C13.013,5.430 13.060,5.820 13.139,6.195 C8.923,5.977 5.164,3.977 2.663,0.914 C2.222,1.665 1.970,2.523 1.970,3.461 C1.970,5.211 2.867,6.758 4.236,7.664 C3.402,7.632 2.615,7.398 1.939,7.023 C1.939,7.039 1.939,7.070 1.939,7.086 C1.939,9.539 3.685,11.570 6.013,12.038 C5.588,12.147 5.132,12.210 4.676,12.210 C4.346,12.210 4.031,12.179 3.716,12.132 C4.361,14.132 6.233,15.585 8.467,15.632 C6.721,16.991 4.534,17.788 2.159,17.788 C1.734,17.788 1.341,17.772 0.932,17.725 C3.182,19.163 5.856,19.990 8.735,19.990 C18.078,19.990 23.191,12.304 23.191,5.633 C23.191,5.414 23.191,5.195 23.175,4.976 C24.166,4.258 25.031,3.367 25.723,2.367 Z"/>
+                </svg>
             </a>
-            <a href="" class="socials-img instagram">
-                <img src="src/sotials/in.svg">
+            <a href="https://www.instagram.com/coffeedali/" target="_blank" class="socials-img">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="24px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)" d="M22.256,20.272 C22.256,20.803 21.831,21.225 21.296,21.225 L4.480,21.225 C3.946,21.225 3.521,20.803 3.521,20.272 L3.521,10.148 L5.739,10.148 C5.534,10.789 5.424,11.492 5.424,12.195 C5.424,16.194 8.791,19.428 12.928,19.428 C17.081,19.428 20.447,16.194 20.447,12.195 C20.447,11.492 20.337,10.789 20.132,10.148 L22.256,10.148 L22.256,10.148 L22.256,20.272 ZM17.788,11.945 C17.788,14.523 15.618,16.616 12.928,16.616 C10.254,16.616 8.083,14.523 8.083,11.945 C8.083,9.367 10.254,7.274 12.928,7.274 C15.618,7.274 17.788,9.367 17.788,11.945 ZM22.256,6.320 C22.256,6.914 21.768,7.398 21.171,7.398 L18.433,7.398 C17.836,7.398 17.348,6.914 17.348,6.320 L17.348,3.742 C17.348,3.149 17.836,2.664 18.433,2.664 L18.433,2.664 L21.171,2.664 C21.768,2.664 22.256,3.149 22.256,3.742 L22.256,6.320 ZM24.993,3.071 C24.993,1.383 23.593,-0.007 21.894,-0.007 L3.930,-0.007 L3.930,-0.007 C2.231,-0.007 0.831,1.383 0.831,3.071 L0.831,20.912 C0.831,22.600 2.231,23.990 3.930,23.990 L21.894,23.990 C23.593,23.990 24.993,22.600 24.993,20.912 L24.993,3.071 Z"/>
+                </svg>
             </a>
         </div>
         <p class="adress Lato">St. Thomas street 21st, Suite 110, Santa Monica, California</p>
