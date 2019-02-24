@@ -428,6 +428,12 @@ header {
     text-transform: uppercase;
     padding: 60px;
 }
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .testimonials {
+      font-size: 64px;
+    }
+}
 .bg {
     max-width: 1270px;
     margin: 0 auto;
@@ -437,6 +443,15 @@ header {
     background-position:80% 20%;
     background-image: url('../src/realisticshots-coffee-photo.png');
 }
+@media screen and (min-width: 2048px) {
+     .bg { max-width: 2540px; } 
+   }
+@media screen and (min-width: 2048px) {
+     .bg { height: 850px; } 
+   }
+@media screen and (min-width: 2048px) {
+     .bg { background-image: url('../src/realisticshots-coffee-photo@2x.png'); } 
+   }
 .viewport {
     width: 470px;
     height: 425px;
@@ -445,8 +460,15 @@ header {
     overflow: hidden;
     background-color: #39312f;
 }
+
 @media screen and (max-width: 768px) {
      #viewport-bg-container { width: 100%; } 
+   }
+@media screen and (min-width: 2048px) {
+     .viewport { width: 40%; } 
+   }
+@media screen and (min-width: 2048px) {
+     .viewport { height: 100%; } 
    }
    
 .slidewrapper {
@@ -466,7 +488,7 @@ header {
     list-style: none;
    
 }
-.Chris-Parker {
+.face {
     font-family: PlayfairDisplay;
     font-size: 20px;
     font-weight: bold;
@@ -478,30 +500,10 @@ header {
     color: #f5d76e;
     padding: 15px;
 }
-.Brendan-Lim {
-    font-family: PlayfairDisplay;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #f5d76e;
-    padding: 15px;
-}
-.Bruno-Bergher {
-    font-family: PlayfairDisplay;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #f5d76e;
-    padding: 15px;
-}
+@media screen and (min-width: 2048px) {
+     .face { font-size: 40px; } 
+   }
+
 .text {
     font-family: Lato;
     font-size: 16px;
@@ -514,6 +516,9 @@ header {
     color: #ffffff;
     padding: 5px;
 }
+@media screen and (min-width: 2048px) {
+     .text { font-size: 40px; } 
+   }
 .photo-placeholder{
     position: absolute;
     top: 98px;
@@ -544,6 +549,9 @@ header {
     right: 32px;
     bottom: 12px;
 }
+.carousel{
+  height: 100%;
+}
 ol.carousel-indicators {
    position: absolute;
    bottom: 64px;
@@ -555,8 +563,8 @@ ol.carousel-indicators {
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
    width: 11px;
-  height: 11px;
-  background-color: #ececec;
+   height: 11px;
+   background-color: #ececec;
    margin: 3px;
    border-radius: 50%;
    border: 0;
@@ -573,13 +581,34 @@ ol.carousel-indicators li.active {
   border: 1px solid #ececec;
   background-color: #39312f;
 }
+@media screen and (min-width: 2048px) {
+     ol.carousel-indicators li,
+ol.carousel-indicators li.active { width: 21px; height: 21px; } 
+   }
 div.carousel-inner {
     text-align: center;
+    height: 100%;
 }
 .bd-example img {
-    
     margin-top: 98px;
 }
+@media screen and (min-width: 2048px) {
+     .bd-example img { margin-top: 180px; } 
+   }
+.bd-example  {
+    height: 100%;
+}
+@media screen and (min-width: 2048px) {
+     .bd-example { height: 100%; } 
+   }
+.slideimg {
+  width: 84px;
+  height: 84px;
+}
+@media screen and (min-width: 2048px) {
+     .slideimg { height: 160%; 
+                 width: 160px; } 
+   }
 
 /* And style*/
 .cover {
