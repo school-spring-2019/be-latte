@@ -48,7 +48,7 @@ header {
 }
 
 .nav-item {
-    text-align: right;
+    text-align: center;
 }
 .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -80,7 +80,11 @@ header {
     width: 154px;
     height: 127px;
 }
+
 /* Ivan Balashov-begin */
+.navbar-toggler:focus {
+    outline: none;
+}
 @media (max-width: 575.98px) {
   .banner.banner-post{
       height: 100vh;
@@ -284,6 +288,9 @@ header {
   }
 }
 /*Ivan Balashov-end*/
+#container-location {
+  /*height: 100%;*/
+}
 .location-label {
     align-self: center;
     left: 0;
@@ -303,24 +310,21 @@ header {
     text-transform: uppercase;
     margin-bottom: 60px;
 }
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .location-label {
+      font-size: 64px;
+    }
+}
 .hours-and-map{
-    /*height: 425px;*/
+    height: auto;
     margin-bottom: 15px;
 }
-
-.hours-and-map>.row{
-    max-width: 1140px;
-    margin: 0 auto;
-    position: relative;
-}
-.houston-city {
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .hours-and-map {
     width: 100%;
-    height: 425px;
-    object-fit: cover;
-}
-@media(min-width:768px){
-    .houston-city {
-    width: 60%;
+    height: auto;
     }
 }
 @media(min-width:576px){
@@ -330,8 +334,52 @@ header {
 }
 @media(min-width:768px){
     #hours-bg-container {
+    flex-wrap: wrap;
+    }
+}
+@media(min-width:996px){
+    #hours-bg-container {
     flex-wrap: nowrap;
     }
+}
+.hours-and-map>.row{
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+.houston-city {
+  position: relative;
+  width: 100%;
+  min-height: 425px;
+  height: 425px;
+  object-fit: cover;
+}
+@media(min-width:768px){
+    .houston-city {
+    width: 100%;
+  height: 425px;
+    }
+}
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .houston-city {
+    margin: 0;
+    width: 30%;
+    height: 425px;
+    transform: scale(2);
+    transform-origin: top right;
+    /*height: auto;*/
+    }
+}
+.hours-bg {
+    left: 0px;
+    top: 0px;
+    background-color: #f5d76e;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: 425px;
 }
 @media(min-width:576px){
     .hours-bg {
@@ -340,22 +388,26 @@ header {
 }
 @media(min-width:768px){
     .hours-bg {
-    max-width: 458px;
+    width:100%;
+    }
+}
+@media(min-width:996px){
+    .hours-bg {
     width:40%;
     }
 }
-#container-location {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.hours-bg {
-    left: 0px;
-    top: 0px;
-    height: 425px;
-    background-color: #f5d76e;
-    padding-left: 50px;
-    padding-top: 35px;
-    padding-right: 10px;
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .hours-bg{
+    height: 850px;
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    width: 40%;
+    }
 }
 .hours-bg span {
   font-family: 'Playfair Display';
@@ -371,13 +423,35 @@ header {
   margin-top: 25px;
   display: inline-block;
 }
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+  .hours-bg span
+  {
+    font-size: 60px;
+  }
+}
 .hours-bg p b {
     width: 99px;
     display: inline-block;
 }
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+  .hours-bg p b
+  {
+    width: 198px;
+    font-size: 40px;
+  }
+}
 .hours-bg p {
     margin-bottom: 6px;
     font-family: 'Lato';
+}
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+  .hours-bg p
+  {
+    font-size: 40px;
+  }
 }
 /*text_under_banner BOMBO454*/
 .under_banner{
@@ -791,7 +865,13 @@ footer {
 .socials-img {
     margin-left: 30px;
 }
+.socials-img:hover {
+    text-decoration: none;
+}
 
+.socials-img svg:hover > path {
+    fill: #f2d46e;
+} 
 .adress {
     color: #fff;
     font-size: 16px;
@@ -804,12 +884,15 @@ footer {
     height
     background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
-@media screen and (max-width: 990px) {
+
+
+@media screen and (max-width: 767px) {
     .navbar .right {
         padding-left: 0;
     }
     .navbar-collapse {
-        position: relative;
+        position: absolute;
+        width: 100%;
         top: 100px;
         background-color: rgba(0, 0, 0, 0.35);
     }
@@ -819,8 +902,8 @@ footer {
     }
 
     .logo-img {
-        width: 141px;
-        height: 116px;
+        width: 105px;
+        height: 82px;
     }
 
     .left, .right {
