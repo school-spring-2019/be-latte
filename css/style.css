@@ -48,7 +48,7 @@ header {
 }
 
 .nav-item {
-    text-align: right;
+    text-align: center;
 }
 .navbar-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -79,6 +79,10 @@ header {
 .logo-img {
     width: 154px;
     height: 127px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
 }
 /* Ivan Balashov style*/
 @media (max-width: 575.98px) {
@@ -759,7 +763,13 @@ footer {
 .socials-img {
     margin-left: 30px;
 }
+.socials-img:hover {
+    text-decoration: none;
+}
 
+.socials-img svg:hover > path {
+    fill: #f2d46e;
+} 
 .adress {
     color: #fff;
     font-size: 16px;
@@ -772,12 +782,15 @@ footer {
     height
     background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
-@media screen and (max-width: 990px) {
+
+
+@media screen and (max-width: 767px) {
     .navbar .right {
         padding-left: 0;
     }
     .navbar-collapse {
-        position: relative;
+        position: absolute;
+        width: 100%;
         top: 100px;
         background-color: rgba(0, 0, 0, 0.35);
     }
@@ -787,8 +800,8 @@ footer {
     }
 
     .logo-img {
-        width: 141px;
-        height: 116px;
+        width: 105px;
+        height: 82px;
     }
 
     .left, .right {
