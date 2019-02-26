@@ -914,6 +914,65 @@ footer {
     background-image: url('../var/www/html/be-latte/src/realisticshots-coffee-photo.png');
 }
 
+.widgets-container{
+  margin: auto;
+  max-width: 1600px;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*border: 3px blue solid;*/
+}
+@media(min-width:768px){
+  .widgets-container {
+    flex-wrap: nowrap;
+  }
+}
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .widgets-container {
+      height: 500px;
+    }
+}
+.widgets-row{
+  width: 100%;
+  /*border: 3px yellow solid;*/
+}
+.widgets-row .left{
+  /*border: 3px red solid;*/
+      transform-origin: top right;
+}
+.widgets-row .right{
+  /*border: 3px green solid;*/
+      transform-origin: top left;
+}
+.wrapper-wg {
+  margin: 0;
+  width: 100%;
+  min-width: 300px;
+  height: auto;
+  padding: 15px;
+}
+@media(min-width:768px){
+  .wrapper-wg{
+    width: 50%;
+    height: auto;
+  }
+}
+@media(min-resolution: 144dpi)
+   and (min-width: 2048px){
+    .wrapper-wg {
+    margin: 0;
+    height: 50%;
+    transform: scale(2);
+    }
+}
+#vk_comments{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
 .wrapper-wg {
   width: 100%;
