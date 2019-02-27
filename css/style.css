@@ -13,6 +13,21 @@
   margin-right:3px;
 }
 
+.section-header{
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    margin: 60px;
+}
+
 /*Header Lennnyn*/
 header {
     width: 100%;
@@ -25,7 +40,6 @@ header {
     width: inherit;
     height: 100px;
 }
-
 .left, .right {
     display: flex;
     width: 50%;
@@ -292,31 +306,6 @@ header {
 /*Ivan Balashov-end*/
 #container-location {
   /*height: 100%;*/
-}
-.location-label {
-    align-self: center;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 24px;
-    text-align: center;
-    font-family: playfairdisplay;
-    font-size: 32px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.75;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--black);
-    text-transform: uppercase;
-    margin-bottom: 60px;
-}
-@media(min-resolution: 144dpi)
-   and (min-width: 2048px){
-    .location-label {
-      font-size: 64px;
-    }
 }
 .hours-and-map{
     height: auto;
@@ -763,15 +752,6 @@ div.carousel-inner {
     width:234px;
     margin:auto;
 }
-.menu-text {
-    font-family: Playfair Display;
-    font-size: 32px;
-    font-weight: bold;
-    text-transform:uppercase;
-    text-align:center;
-    margin-top:60px;
-    margin-bottom:60px;
-}
 .text-coffee {
     font-family: Playfair Display;
     font-size: 32px;
@@ -802,51 +782,10 @@ div.carousel-inner {
     background-size:cover;
     background-position: center;
 }
-@media(min-width:1000px){
 .menu-blocks {
-    width:32%;
-    height:550px;
-    float:left;
-    margin-left:1%;
-}
-.menu-top {
-    height:294px;
     width:100%;
-    font-family: Playfair Display;
-    font-size: 40px;
-    font-weight: bold;
-    text-transform:uppercase;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu-bottom-left {
-    padding-top:45px;
-    float:left;
-    margin-left:14%;
-    font-family: Lato;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 1.75;
-    text-align: left;
-    height:206px;
-}
-.menu-bottom-right {
-    margin-top:45px;
-    float:right;
-    margin-right:14%;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 1.75;
-    height:206px;
-}
-}
-@media(max-width:999px){
-.menu-blocks {
-    width:98%;
     height:500px;
-    margin-left:1%;
-    margin-bottom:0px;
+    margin:0px;
 }
 .menu-top {
     height:294px;
@@ -879,6 +818,43 @@ div.carousel-inner {
     font-family: Lato;
     font-size: 16px;
     line-height: 1.75;
+}
+@media(min-width: 768px){
+.menu-blocks {
+    width:32%;
+    height:550px;
+    float:left;
+    margin-left:1%;
+}
+.menu-top {
+    height:294px;
+    width:100%;
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform:uppercase;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bottom-left {
+    float:left;
+    margin-left:14%;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: left;
+    height:206px;
+}
+.menu-bottom-right {
+    margin-top:45px;
+    float:right;
+    margin-right:14%;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.75;
+    height:206px;
 }
 }
 
@@ -1010,5 +986,40 @@ footer {
 @media screen and (max-width: 480px) {
     .adress {
         padding: 0 25px;
+    }
+}
+.page_container{
+    width: 100%;
+    margin: 0px auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@media (min-width: 576px) {
+    .page_container{
+
+    }
+}
+
+@media (min-width: 768px) {
+    .page_container{
+        
+    }
+}
+
+@media (min-width: 992px) { 
+    .page_container{
+        
+    }
+}
+
+@media (min-width: 1200px) { 
+    .page_container{
+        max-width: 1024px;
+    }
+}
+@media(min-width: 2048px){
+    .page_container{
+        max-width: 2048px;
     }
 }
