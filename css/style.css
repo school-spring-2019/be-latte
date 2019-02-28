@@ -869,6 +869,21 @@ footer {
 .socials {
     margin-bottom: 20px;
 }
+.socials .btn{
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border: 2px solid #fff;
+    margin-left: 20px;
+}
+
+.socials .btn:hover{
+    color: #fff;
+    background-color: #666;
+}
+
 .socials-img {
     margin-left: 30px;
 }
